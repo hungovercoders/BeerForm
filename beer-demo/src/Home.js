@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="home">
             {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>}
+            {isPending && <div>Pouring...</div>}
             {beers && <BeerList beers={beers} />}
         </div>
     );
